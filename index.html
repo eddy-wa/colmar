@@ -12,25 +12,32 @@
 
     <header>
 
-      <img src="./resources/images/ic-logo.svg">
+      <img src="./resources/images/ic-logo.svg" alt="Logo">
       <span class="heavy">Colmar</span><span class="light">Academy</span>
 
-      <nav>
+      <nav class="desktop">
         <a href="#">On campus</a>
         <a href="#">Online</a>
         <a href="#">For companies</a>
         <a href="#">Sign In</a>
       </nav>
 
+      <nav class="mobile">
+        <img src="./resources/images/ic-logo.svg" alt="Logo">
+        <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="Logo"></a>
+        <a href="#"><img src="./resources/images/ic-online.svg" alt="Logo"></a>
+        <a href="#"><img src="./resources/images/ic-login.svg" alt="Logo"></a>
+      </nav>
+
     </header>
 
     <main>
 
-      <div id="attract">
+      <section id="attract">
 
         <div class="attract container">
 
-          <img src="./resources/images/banner.jpg">
+          <img src="./resources/images/banner.jpg" alt="Students studying">
           <div class="attract-cta">
             <h2>Learn something new everyday</h2>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
@@ -42,158 +49,173 @@
           </div>
 
         </div>
-      </div>
+      </section>
 
-      <div id="overview">
+      <section id="overview">
 
         <div class="articles container">
 
           <!-- the main story in this section -->
-          <div class="major article">
-            <img src="./resources/images/information-main.jpg">
+          <article class="major">
+            <img src="./resources/images/information-main.jpg" alt="Main Article Photo">
             <h1>It doesn't hurt to keep practicing</h1>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
             <span>Emanuel, Sr Strategist at Hiring.com</span>
-          </div>
+          </article>
 
           <!-- the minor articles in this section -->
           <div class="minor-articles">
 
-            <div class="minor article">
-              <img src="./resources/images/information-orientation.jpg">
+            <article class="minor">
+              <img src="./resources/images/information-orientation.jpg" class="desktop" alt="Orientation Photo">
+              <img src="./resources/images/information-orientation-mobile.jpg" class="mobile" alt="Orientation Photo">
               <div class="details">
                 <h3>Orientation date</h3>
                 <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
                 <a href="#">Read more</a>
               </div>
-            </div>
+            </article>
 
-            <div class="minor article">
-              <img src="./resources/images/information-campus.jpg">
+            <article class="minor">
+              <img src="./resources/images/information-campus.jpg" class="desktop" alt="Campus Photo">
+              <img src="./resources/images/information-campus-mobile.jpg" class="mobile" alt="Campus Photo">
               <div class="details">
                 <h3>Our Campus</h3>
                 <p>Find which campus is close by you</p>
                 <a href="#">Read more</a>
               </div>
-            </div>
+            </article>
 
-            <div class="minor article">
-              <img src="./resources/images/information-guest-lecture.jpg">
+            <article class="minor">
+              <img src="./resources/images/information-guest-lecture.jpg" class="desktop" alt="Guest Photo">
+              <img src="./resources/images/information-guest-lecture-mobile.jpg" class="mobile" alt="Guest Photo">
               <div class="details">
                 <h3>Our guest lecture</h3>
                 <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                 <a href="#">Read more</a>
               </div>
-            </div>
+            </article>
 
           </div>
         </div>
-      </div>
+      </section>
       <!-- end of overview section -->
 
-      <div id="subjects">
+      <section id="subjects">
 
         <h1>Start learning</h1>
 
         <div class="subjects container">
 
-          <div class="subject">
-            <img src="./resources/images/course-software.jpg">
-            <div class="subject-text">
-              <h3>Software engineering</h3>
-              <h4>Courses</h4>
-              <p>Web Development, Mobile Development, iOT, APIs</p>
+          <a href="#">
+            <div class="subject">
+              <img src="./resources/images/course-software.jpg" alt="Software Courses">
+              <div class="subject-text">
+                <h3>Software engineering</h3>
+                <h4>Courses</h4>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="subject">
-            <img src="./resources/images/course-computer-art.jpg">
-            <div class="subject-text">
-              <h3>Computer art</h3>
-              <h4>Courses</h4>
-              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+          <a href="#">
+            <div class="subject">
+              <img src="./resources/images/course-computer-art.jpg" alt="Computer Art Courses">
+              <div class="subject-text">
+                <h3>Computer art</h3>
+                <h4>Courses</h4>
+                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="subject">
-            <img src="./resources/images/course-design.jpg">
-            <div class="subject-text">
-              <h3>Design</h3>
-              <h4>Courses</h4>
-              <p>User Experience Design, User Research, Visual Design</p>
+          <a href="#">
+            <div class="subject">
+              <img src="./resources/images/course-design.jpg" alt="Design Courses">
+              <div class="subject-text">
+                <h3>Design</h3>
+                <h4>Courses</h4>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="subject">
-            <img src="./resources/images/course-data.jpg">
-            <div class="subject-text">
-              <h3>Data</h3>
-              <h4>Courses</h4>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
+          <a href="#">
+            <div class="subject">
+              <img src="./resources/images/course-data.jpg" alt="Data Courses">
+              <div class="subject-text">
+                <h3>Data</h3>
+                <h4>Courses</h4>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="subject">
-            <img src="./resources/images/course-business.jpg">
-            <div class="subject-text">
-              <h3>Business</h3>
-              <h4>Courses</h4>
-              <p>Product Development, Business Development, Startup</p>
+          <a href="#">
+            <div class="subject">
+              <img src="./resources/images/course-business.jpg" alt="Business Courses">
+              <div class="subject-text">
+                <h3>Business</h3>
+                <h4>Courses</h4>
+                <p>Product Development, Business Development, Startup</p>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="subject">
-            <img src="./resources/images/course-marketing.jpg">
-            <div class="subject-text">
-              <h3>Marketing</h3>
-              <h4>Courses</h4>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
+          <a href="#">
+            <div class="subject">
+              <img src="./resources/images/course-marketing.jpg" alt="Marketing Courses">
+              <div class="subject-text">
+                <h3>Marketing</h3>
+                <h4>Courses</h4>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
             </div>
-          </div>
+          </a>
 
         </div>
 
-      </div>
+      </section>
 
-      <div id="thesis">
+      <section id="thesis">
 
         <h1>Thesis exhibit</h1>
 
         <div class="articles container">
 
           <!-- the main story in this section -->
-          <div class="major article">
+          <article class="major">
             <video src="./resources/videos/thesis.mp4" controls>
               Your browser does not support this video.
             </video>
             <h3>Reimagine urban</h3>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
-          </div>
+          </article>
 
           <!-- the minor articles in this section -->
           <div class="minor-articles">
 
-            <div class="minor article">
-              <img src="./resources/images/thesis-fisma.jpg">
+            <article class="minor">
+              <img src="./resources/images/thesis-fisma.jpg" alt="Article Photo">
               <div class="details">
                 <h3>Fisma: Design and Prototype</h3>
                 <p>Designer showcase of new prototype product</p>
               </div>
-            </div>
+            </article>
 
-            <div class="minor article">
-              <img src="./resources/images/thesis-now-and-then.jpg">
+            <article class="minor">
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="Article Photo">
               <div class="details">
                 <h3>Now and then</h3>
                 <p>Research study about New York</p>
               </div>
-            </div>
+            </article>
 
           </div>
 
         </div>
 
-      </div>
+      </section>
 
     </main>
 
